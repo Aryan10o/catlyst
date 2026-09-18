@@ -1,0 +1,27 @@
+[functions.start-section]
+verify_jwt = true
+entrypoint = "./functions/start-section/index.ts"
+
+[functions.heartbeat]
+verify_jwt = true
+entrypoint = "./functions/heartbeat/index.ts"
+
+[functions.resume-section]
+verify_jwt = true
+entrypoint = "./functions/resume-section/index.ts"
+
+[functions.submit-section]
+verify_jwt = true
+entrypoint = "./functions/submit-section/index.ts"
+
+[functions.get-section-questions]
+verify_jwt = true
+entrypoint = "./functions/get-section-questions/index.ts"
+
+[functions.save-response]
+verify_jwt = true
+entrypoint = "./functions/save-response/index.ts"
+
+[functions.log-violation]
+verify_jwt = true
+entrypoint = "./functions/log-violation/index.ts"
